@@ -1,0 +1,203 @@
+[
+    {
+      "product": "Calcirol",
+      "ingredients": ["Vitamin D3"],
+      "description": "Calcirol contains the secosteroid cholecalciferol, also known as vitamin D3. Aside from its well-known role in calcium metabolism, this secosteroid has very important role in immune function, muscle health, stress adaptation (cortisol), anti-aging, sex steroid modulation, cardiovascular function, cognitive function, etc."
+    },
+    {
+      "product": "CamphoSal",
+      "ingredients": ["Camphoric Acid", "Salol (Phenyl Salicylate)"],
+      "description": "CamphoSal is a liquid product containing a combination of camphoric acid and phenyl salicylate (Salol). Both of these ingredients were widely used clinically in the late 19th and early 20th century as intestinal antiseptics / disinfectants when antibiotics were not widely available and barely known. There is some evidence that both may have beneficial effect beyond modulating the intestinal microbiome (e.g. gonorrhea), however there is no recent research in that area, and as such no definitive statements can be made."
+    },
+    {
+      "product": "Cardenosine",
+      "ingredients": [
+        "Adenosine Triphosphate",
+        "Suconic Acid",
+        "Inosine",
+        "Vitamin B6",
+        "Pyroglutamic Acid"
+      ],
+      "description": "Cardenosine is a product with the main purpose of raising ATP levels in an organism. Besides raising ATP, the ingredients in Cardenosine have been studies separately over a period of several decades. Those ingredients and have been found to possess a number of desirable properties - including anti-inflammatory, anti-serotonin, pro-dopamine, anti-glucocorticoid, anti-inflammatory, anti-endotoxin, anti-viral, anti-mutagenic, antimicrobial, anti-cancer, anxiolytic, antidepressant, cardioprotective, anti-ischemic, neuroprotective, and generally anti-aging."
+    },
+    {
+      "product": "DeFibron",
+      "ingredients": ["Methyl Palmitate", "Methyl Stearate", "Methyl myristate"],
+      "description": "DeFibron is a mixture of the methylated (esterified) saturated fatty acids methyl palmitate, methyl stearate and methyl myristate. These fatty acids are similar in properties to their unesterified equivalents typically found in food sources like coconut oil, butter and dairy products. However, unlike the plain saturated fatty acids the esterified versions are resistant to metabolism and as such have much longer half life, which allows them to exert their effects in much lower concentrations. These esterified saturated fatty acids have been shown to possess a number of beneficial health effects including anti-fibrotic, anti-inflammatory, anti-glucocorticoid, anti-osteoporosis, anti-depressive, anti-estrogenic, anti-diabetic, anti-mutagenic, antimicrobial, anti-cancer, anxiolytic, antidepressant, and generally anti-aging."
+    },
+    {
+      "product": "EstroBan",
+      "ingredients": ["Vitamin A", "Vitamin D3", "Vitamin E", "Vitamin K"],
+      "description": "Fat soluble vitamins"
+    },
+    {
+      "product": "Energin",
+      "ingredients": [
+        "Vitamin B1 (prosultiamine)",
+        "Vitamin B2 (Riboflavin 5' Phosphate)",
+        "Vitamin B3 (Niacinamide)",
+        "Vitamin B6 (Pyridoxine 5' Phosphate)",
+        "Vitamin B7 (Biotin)"
+      ],
+      "description": "B Complex."
+    },
+    {
+      "product": "Gonadin",
+      "ingredients": [
+        "Flavanone",
+        "α-Napthoflavone",
+        "Methyl Palmitate",
+        "Methyl Oleate"
+      ],
+      "description": "Gonadin is a liquid product for optimizing endogenous steroid synthesis. Its ingredients have been studied for aromatase inhbition (ANF/BZF, flavanone), cortisol synthesis inhibition (flavanone), MAO-B inhibition (flavanone), increasing androgen synthesis (methyl palmitate and methyl oleate), and increasing androgen receptor (AR) expression (caprylic acid). Based on the mechanisms described above and the studies referenced below, the combination of the four (4) ingredients (plus caprylic acid, present as one of the solvents) may help optimize the endogenous steroid balance."
+    },
+    {
+      "product": "Magnoil",
+      "ingredients": ["Magnesium L-pilodate"],
+      "description": "Magnoil is a liquid magnesium supplement suitable for skin application. Magnesium has a unique and highly important role in human health. The mineral is a required cofactor for over 300 enzymes in the organism, including the crucial enzyme PDH. In addition, it has a well-recognized role in the CNS and various other systems including GABA/glycine receptors, NMDA, calcium channels, inflammation (CRP, NF-kB, TNFa, etc)."
+    },
+    {
+      "product": "MelaNon",
+      "ingredients": ["Apigenin", "Naringenin", "Caffeine"],
+      "description": "MelaNon is dietary supplement for skin health. It contains the citrus flavonoid naringenin as well as the flavone apigenin most commonly found in chamomile. MelaNon also contains caffeine for improved estrogen control and skin health. All of the ingredients have been extensively studies for health purposes, but most of the research on naringenin / apigenin focuses on their anti-neoplastic effects, and especially their effects on skin formations such as moles of various types. This product, while consisting entirely of food-grade ingredients, is sanctioned for external use only."
+    },
+    {
+      "product": "Oxidal",
+      "ingredients": ["Methylene Blue", "Caffeine", "Benzoic Acid"],
+      "description": "Oxidal is a liquid supplement that supports optimal oxygenation of tissues and cells. Each of the ingredients in Oxidal has been shown in scientific studies increase cellular respiration, uncouple oxidative metabolism, and thus support more optimal cellular health. This is believed to result in improved vitality and energy levels."
+    },
+    {
+      "product": "Pansterone",
+      "ingredients": ["Pregnenolone", "DHEA"],
+      "description": "Pansterone contains a mixture of the \"steroids of youth\" - pregnenolone and DHEA - as discussed by Ray Peat in many of his articles. While each of the steroids has benefits on its own, the combination of these steroids in the doses used in the supplement have been found to amplify each other's beneficial effects on virtually all systems and organs in the human body. Some of the better known effects of these steroids include stress reduction, memory support, metabolism support, weight support, blood sugar support, immune system support, bone support, skin health and anti-aging, vision support, hair and nails support, libido and sexual function (in both sexes) and feelings of overall healthiness and resilience."
+    },
+    {
+      "product": "Retinil",
+      "ingredients": ["Vitamin A (retinyl acetate)"],
+      "description": "Retinil is a liquid supplement containing high-purity vitamin A. The vitamin A form used in Retinil has been extensively studied in humans and animal models. According to Wikipedia retinyl acetate \"...has potential antineoplastic and chemopreventive activities\". The product can be used on its own or in combination with other supplements."
+    },
+    {
+      "product": "SolBan",
+      "ingredients": ["Vitamin B3", "Caffeine", "Aspirin", "Succinic Acid"],
+      "description": "SolBan is a liquid mixture of niacinamide, caffeine, and aspirin. These ingredients have been shown in multiple human clinical trials (as well as animal studies) to have a highly protective effect on the skin against a number of harmful agents and processes. The list of harmful agents and processes includes sunlight (UV), metabolic disturbances, aging (wrinkles, cellulite), hormonal imbalance (acne, eczema, melasma), stress, polyunsaturated fats (PUFA), etc. SolBan is available as a 20 % alcohol (ethanol) solution in a 2oz plastic spray bottle. The product is intended and sanctioned for external use only."
+    },
+    {
+      "product": "StressNon",
+      "ingredients": ["Pregnenolone"],
+      "description": "StressNon is a dietary supplement containing pure, pharmaceutical grade pregnenolone. This product, while consisting entirely of food-grade ingredients, is sanctioned for external use only."
+    },
+    {
+      "product": "Kuinone",
+      "ingredients": ["Vitamin K-2 (MK-4)"],
+      "description": "Kuinone is a dietary supplement containing vitamin K2 (MK-4) also known as menatetrenone. This product, while consisting entirely of food-grade ingredients, is sanctioned for external use only."
+    },
+    {
+      "product": "Lapodin",
+      "ingredients": ["Beta-lapochone", "Emodin"],
+      "description": "Lapodin is a dietary supplement containing the napththoquinone beta-lapachone (β-lapachone) and the anthraquinone emodin. The name is a combination of the names beta-lapapachone and emodin. Both quinones have been the subject of hundreds of independent studies going back to the early 1900s, and are purported to have a powerful systemic effect on health, including boosting metabolism/respiration."
+    },
+    {
+      "product": "MitoLipin",
+      "ingredients": [
+        "Dipalmitoylphosphatidylcholine (DPPC)",
+        "Distearoylphosphatidylcholine (DSPC)"
+      ],
+      "description": "MitoLipin is a dietary supplement containing fully saturated phosphatidylcholine (PC). The saturated PC supports the function and structure of the mitochondrial lipid cardiolipin (CL). The CL is crucial for the proper functioning of several of the electron transport chain complexes (III, IV, and V) responsible for oxidative phosphorylation. The composition of CL changes with aging and becomes increasingly unsaturated. Saturated PC is believed to change the composition of CL back to saturated, as it is found in humans at birth, and thus restore optimal oxidative metabolism inside the mitochondria of every cell. This product, while consisting entirely of food-grade ingredients, is sanctioned for external use only."
+    },
+    {
+      "product": "Pyrucet",
+      "ingredients": ["Ethyl Acetoacetate", "Ethyl Pyruvate"],
+      "description": "Pyrucet is a combination of the ethyl esters of the endogenous metabolites/ketones pyruvate and acetoacetate. Numerous studies have demonstrated that those ethyl esters are more stable and more lipophilic than their unesterified versions. A large number of studies have examined the effects of ethyl pyruvate (EP) and ethyl acetoacetate (EC) on issues ranging from glucose metabolism, fatty acid oxidation, ATP synthesis, redox status, inflammation, autoimmunity, kidney, heart, liver, brain, thymus, spleen, joint, etc health and most of those studies call for urgent human trials considering the robust benefits displayed by these chemicals in animal models."
+    },
+    {
+      "product": "TocoVit",
+      "ingredients": ["Vitamin E"],
+      "description": "TocoVit is a liquid, mixed tocopherol supplement extracted from wheat germ oil (WGO). As such, in addition to its high proportion of alpha-tocopherol it also contains a number of other ingredients extracted from the WGO that may have hormonal and metabolic effects on their own. These additional ingredients include long chains fatty alcohols known informally as \"policosanol\". TocoVit may crystalize then cooled and is also sensitive to bright sunlight. Thus, the supplement should be kept in a dark location at room temperature to maintain its liquid form and proper vitamin E content. This product, while consisting entirely of food-grade ingredients, is sanctioned for external use only."
+    },
+    {
+      "product": "Panquinone",
+      "ingredients": ["Triquinoyl hydrate", "Naphthoquinones"],
+      "description": "Panquinone is a lab/research chemical product containing a combination of the powerful oxidizing agent triquinoyl in combination with other well-known quinones. Panquinone also contains theacrine to increase stability of the quinones as well as their oxidative effects."
+    },
+    {
+      "product": "Cyproheptadine",
+      "ingredients": ["Cyproheptadine (HCl), USP"],
+      "description": "Cyproheptadine is a first-generation antihistamine with additional anticholinergic, antiserotonergic, and local anesthetic properties. It is one of the oldest synthetic antihistamine and antiserotonin drugs, with use spanning more than 5 decades. As such, cyproheptadine is second to none in terms of known properties, risks, and dose-response effects."
+    },
+    {
+      "product": "CortiNon(+)",
+      "ingredients": ["Progesterone (USP)", "DHEA (USP)"],
+      "description": "CortiNon is a combination of the steroids progesterone and DHEA, which have a number of desirable properties as demonstrated by numerous studies - i.e. anti-glucocorticoid, anti-inflammatory, anti-endotoxin, anti-viral, anti-mutagenic, antimicrobial, anti-cancer, anxiolytic, antidepressant, and generally anti-aging."
+    },
+    {
+      "product": "Diamant",
+      "ingredients": ["Adamantane"],
+      "description": "Diamant is a liquid product containing the chemical adamantane. Derivatives of adamantane have been in clinical use for decades are known for their anti-viral, anti-bacterial, pro-dopamine, and anti-excitotoxic properties. More recent studies have discovered that adamantane and its derivatives may be powerful inhibitors of HDAC (in nanomolar concentrations: EC50 = ~70 nM/L). Also, admantane (and its derivatives) may be a direct stimulator of the enzyme tyrosine hydroxylase and thus a direct stimulator of endogenous dopamine synthesis. In addition, adamantane and its derivatives have been studied if they inhibit cortisol synthesis, lower plasma serotonin, histamine, blood glucose, insulin, and inflammatory biomarkers. The extreme lipophilicity of adamantane has led to its use as an absorption enhancer for various drugs delivered topically, orally or even IV and this lipophilicity seems to also enhance the half-life of the chemical administered together with adamantane. For example, several derivatives of aspirin, indomethacin and testosterone have been synthesized using adamantane as the modifier and the bioavailability and half life increases from a few hours to as long as 8 weeks (i.e. see the liphophilicity links in the references below; the steroid Bolmantalate is a direct example Bolmantalate - Wikipedia)."
+    },
+    {
+      "product": "Lanosterol",
+      "ingredients": ["Lanosterol"],
+      "description": "Lanosterol is the primary precursor of cholesterol (and thus steroids) of animals and fungi. It has been shown to possess a number of beneficial health effects including reversing protein aggregation in neurodegenerative diseases, pro-metabolic (uncoupler), anti-inflammatory, anti-endotoxin, anti-glucocorticoid, anti-viral, anti-mutagenic, antimicrobial, anti-cancer, anxiolytic, antidepressant, and generally anti-aging."
+    },
+    {
+      "product": "Lisuride",
+      "ingredients": ["Lisuride (maleate)"],
+      "description": "Lisuride is a chemical agent of the iso-ergoline class, related to the dopaminergic ergoline Parkinson's drugs. Lisuride is a full dopamine and a mixed agonist/antagonist for several serotonin receptors. It is an antagonist at the serotonin 5-HT2B receptor, which is its main mechanism of action in reversing fibrosis of various tissues and organs. It has a high affinity for the dopamine D2, D3 and D4 receptors, as well as D1, and D5. It is an agonist of 5-HT1Aand 5-HT2C receptors, and putative antagonist on 5-HT2A (which explains its antagonism to LSD hallucinogenic effects). Lisuride is also a putative histamine antagonist, on both H1 and H2 receptors."
+    },
+    {
+      "product": "Metergoline",
+      "ingredients": ["Metergoline"],
+      "description": "Metergoline is a non-selective serotonin antagonist and putative dopamine agonist. As a serotonin antagonist it targets the 5-HT1, 5-HT2, 5-HT6, and 5-HT7 receptors but due to its general antiserotonin effects it is considered a non-specific serotonin antagonist similar to cyproheptadine. The dopamine agonism profile of metergoline is not well-known except some evidence for D2 receptor agonism. Metergoline is capable of lowering prolactin through both dopaminergic and non-dopaminergic mechanisms and displays similar effectiveness to bromocriptine in the same dose range, and the two drugs are considered synergistic. One of the most interesting properties of metergoline is its antifungal activity against Candida strains, which are naturally resistant to anti-fungal drugs."
+    },
+    {
+      "product": "TyroMix (T3/T4)",
+      "ingredients": ["Levothyroxine (T4) sodium", "Liothyronine (T3) sodium"],
+      "description": "Triiodothyronine (T3) is the active thyroid hormone. It is synthesized from thyroxine (T4) and some other thyroid percursors, primarily in the liver. It affects almost every physiological process in the body, including growth and development, metabolism, body temperature, and heart rate. The combination of synthetic T4 and T3 provided by TyroMix has been extensively studied over the last 50 years."
+    },
+    {
+      "product": "Tyronene (T3)",
+      "ingredients": ["Liothyronine (T3) sodium"],
+      "description": "Triiodothyronine is the active thyroid hormone. It is synthesized from T4 and some other thyroid percursors, primarily in the liver. It affects almost every physiological process in the body, including growth and development, metabolism, body temperature, and heart rate."
+    },
+    {
+      "product": "TyroMax",
+      "ingredients": ["Natural dessicated thyroid, USP"],
+      "description": "TyroMax is a liquid dietary supplement containing natural dessicated thyroid (NDT) of porcine and/or bovine origin. It is USP quality, which means it is certified as suitable for human consumption."
+    },
+    {
+      "product": "Progestene",
+      "ingredients": ["Progesterone, USP"],
+      "description": "Progestene is a liquid supplement providing bioidentical, high-purity progesterone (USP grade). The multiple benefits of progesterone have been extensively researched over the last century by leading scientists including Dr. Ray Peat. Some of the better known effects of progesterone include estrogen control, oxidative metabolism support, brain health and memory support, skin health support, eye health support, breast / uterine / ovarian health support, thyroid support, etc. Studies show that progesterone (just like pregnenolone and DHEA) levels steeply decline during aging and drop by over 90% in menopausal women, and by over 60% in men over 60. As such, it is considered as one of the steroids of youth and a number of benefits have been attributed to restoring it to youthful levels."
+    },
+    {
+      "product": "6-keto P4",
+      "ingredients": ["Pregn-4-ene-3,6,20-trione"],
+      "description": "6-ketoprogesterone (6-keto P4) is an orally active oxidized form of progesterone that contains a keto group at position C6. According to studies, it has pronounced anticatabolic (hypertrophic) effects on muscle tissue equal to 2/3 of the effects of testosterone. In addition, the studies claim that 6-keto P4 has no estrogenic, antigonadotropic, thermogenic, or other effects commonly associated with progesterone, while having only about 1/6 of the sedative effects of progesterone. As such, 6-keto P4 effects appear to be focused almost entirely on opposition to cortisol - i.e. antagonism to GR and subsequent downstream effects associated with glucocorticoids."
+    },
+    {
+      "product": "10-Methoxy-Harmalan",
+      "ingredients": ["10-MeO-Harmalan"],
+      "description": "A naturally occurring (e.g. in tobacco) β-carboline derivative, 10-methoxy-harmalan (10-MeO-Harmalan) has been shown to act as a serotonin antagonist both in-vitro and in-vivo, with a mechanism and potency similar to the ergot derivatives, but without their psychotropic/hallucinogenic effects. In addition, several studies suggest dopaminergic effects of most naturally occurring β-carbolines. The chemical is currently not known to be regulated/restricted and is available commercially from a number of major chemical vendors."
+    },
+    {
+      "product": "AlloP",
+      "ingredients": ["Allopregnanolone"],
+      "description": "Allopregnanolone is a metabolite of progesterone through the action of the enzymes 5α-reductase (5-AR) and 3α-HSD. Unlike progesterone and 5α-DHP, it is NOT an agonist of the progesterone receptor (PR). However, like progesterone and 5α-DHP, it is an agonist of the GABA receptor and is perhaps the most potent endogenous GABA agonist. Due to its 5-AR derived nature allopregnanolone can serve as a precursor to androgens such as DHT, androstanedione, and androsterone through a recently discovered alternative pathway. Allopregnanolone levels drop in cases of severely downregulated 5-AR activity due to stress, PUFA overload, chronic disease, aging, and administration of 5-AR like finasteride or dutasteride (i.e. the (in)famous Post Finasteride Syndrome (PFS))."
+    },
+    {
+      "product": "5α-DHP",
+      "ingredients": ["5α-Dihydroprogesterone (5α-DHP)"],
+      "description": "5α-Dihydroprogesterone (5α-DHP) is a metabolite of progesterone through the action of the enzyme 5α-reductase (5-AR). It is an agonist of the progesterone receptor with similar potency to progesterone, and just like progesterone it is an agonist of the GABA receptor. As a result, 5α-DHP has been shown to possess a number of properties ascribed to progesterone, including anti-estrogenic, anti-prolactin, sedative, anxyolitic, anti-depressant, neuprotective, anti-aging, pro-metabolic, pro-thyroid, and anti-proliferative. Unlike progesterone, 5α-DHP is not a metabolic precursor to cortisol, estrogen and androsterone. However, due to its 5-AR derived nature 5α-Dihydroprogesterone (5α-DHP) can serve as a pro-hormone to potent androgens such as DHT, androstanedione, and androsterone through a recently discovered alternative pathway. 5α-DHP is also a direct precursor to allopregnanolone and can elevate its levels even in cases of severely downregulated 5-AR activity due to stress, PUFA overload, or administration of 5-AR like finasteride or dutasteride. Finally, unlike progesterone, 5α-DHP seems to have little or no anti-androgenic effects."
+    },
+    {
+      "product": "Androsterone",
+      "ingredients": ["Androsterone"],
+      "description": "Androsterone is an androgenic steroid derived via the activity of the enzyme 5-AR and is a donwstream metabolite of the more potent androgen DHT. Like all 5-AR derived androgens, androsterone displays anti-estrogenic and anti-glucocorticoid activity and in addition serves as a pro-hormone for DHT and other potent androgens. In addition, androsterone is a neurosteroid with potent GABA agonist activity, and is known to function as a pheromone in many animal species including humans. It has been shown to possess anti-depressant and anti-proliferative effects. Perhaps most importantly, it has been found to act like as a potent thyroid mimetic / surrogate and as such to increase basal temperature, oxygen consumption and lower lipid levels in humans."
+    },
+    {
+      "product": "Quinine",
+      "ingredients": ["Quinine"],
+      "description": ""
+    }
+  ]
+  
