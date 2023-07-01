@@ -111,70 +111,59 @@ export default function Home() {
 
   return (
     <>
-     <div className="fixed top-0 left-0 right-0 z-50 bg-white p-2">
-      <div className="max-w-3xl mx-auto">
-      <h1 className="font-bold">IdeaLabs Search</h1>
-      <input 
-        type="text" 
-        value={searchQuery}
-        onChange={e => setSearchQuery(e.target.value)}
-        className="w-full p-2 mb-4 border rounded"
-        placeholder="start typing something..."
-      />
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white p-2">
+        <div className="max-w-3xl mx-auto">
+        <h1 className="font-bold inline-block mr-2 mb-1">IdeaLabs Search</h1>
+
+          <input 
+            type="text" 
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+            className="w-full p-2 mb-4 border rounded"
+            placeholder="start typing something..."
+          />
+        </div>
       </div>
-
-    </div>
-    <main className="max-w-3xl mx-auto py-4 mt-20">
-      <table className="w-full divide-y divide-gray-200">
-        <thead className="bg-gray-50">
-          <tr>
-            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              Product
-            </th>
-            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              Ingredients
-            </th>
-            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              Description
-            </th>
-          </tr>
-        </thead>
-        <tbody className="bg-white divide-y divide-gray-200">
-        {isSearchBlankQuery && data.map((result) => (
-            <tr key={result.product}>
-              <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
-                {result.product}
-              </td>
-              <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
-                {result.ingredients.join(", ")}
-              </td>
-              <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
-                <div className="max-h-56 overflow-y-scroll">
-                {result.description}
+  
+      <main className="max-w-3xl mx-auto py-4 mt-20">
+        <div className="w-full divide-y divide-gray-200">
+          <div className="flex bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider p-6">
+            <div className="flex-1">Product</div>
+            <div className="flex-1">Ingredients</div>
+            <div className="flex-1">Description</div>
+          </div>
+          
+          <div className="divide-y divide-gray-200">
+            {isSearchBlankQuery && data.map((result) => (
+              <div key={result.product} className="flex bg-white p-6">
+                <div className="flex-1 whitespace-normal overflow-auto">{result.product}</div>
+                <div className="flex-1 whitespace-normal overflow-auto">{result.ingredients.join(", ")}</div>
+                <div className="flex-1 whitespace-normal overflow-auto">
+                  <div className="max-h-56 overflow-y-scroll">{result.description}</div>
                 </div>
-              </td>
-            </tr>
-          ))}
-          {searchResults?.hits.map((result) =>  (
-            <tr key={result.id}>
-              <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
-                <HighlightedSearchResult original={result.document.product as string} matches={result.positions.product} />
-              </td>
-              <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
-                <HighlightedSearchResult original={result.document.ingredients as string} matches={result.positions.ingredients} />
-              </td>
-              <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
-                <div className="max-h-56 overflow-y-scroll">
-                <HighlightedSearchResult original={result.document.description as string} matches={result.positions.description} />
+              </div>
+            ))}
+  
+            {searchResults?.hits.map((result) =>  (
+              <div key={result.id} className="flex bg-white p-6">
+                <div className="flex-1 whitespace-normal overflow-auto">
+                  <HighlightedSearchResult original={result.document.product as string} matches={result.positions.product} />
                 </div>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </main>
+                <div className="flex-1 whitespace-normal overflow-auto">
+                  <HighlightedSearchResult original={result.document.ingredients as string} matches={result.positions.ingredients} />
+                </div>
+                <div className="flex-1 whitespace-normal overflow-auto">
+                  <div className="max-h-56 overflow-y-scroll">
+                    <HighlightedSearchResult original={result.document.description as string} matches={result.positions.description} />
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </main>
     </>
-
-  )  
+  )
+  
 }
 
