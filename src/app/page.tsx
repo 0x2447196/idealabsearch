@@ -50,22 +50,22 @@ const HighlightedSearchResult = ({ original, matches }: {
 
   let currentIndex = 0;
   let parts = [];
-
+  let keyIndex = 0;
   highlights.forEach((highlight) => {
     const { start, length } = highlight;
     const normal = original.slice(currentIndex, start);
     const highlighted = original.slice(start, start + length);
 
-    parts.push(<span>{normal}</span>);
-    parts.push(<span style={{ backgroundColor: 'yellow' }}>{highlighted}</span>);
-
+    parts.push(<span key={keyIndex}>{normal}</span>);
+    parts.push(<span key={keyIndex+1} style={{ backgroundColor: 'yellow' }}>{highlighted}</span>);
+    keyIndex += 2;
     currentIndex = start + length;
   });
 
   // Add the remaining text, if any
   if (currentIndex < original.length) {
     const remaining = original.slice(currentIndex);
-    parts.push(<span>{remaining}</span>);
+    parts.push(<span key={keyIndex}>{remaining}</span>);
   }
 
   return <>{parts}</>;
@@ -100,7 +100,8 @@ export default function Home() {
         setSearchResults(results as unknown as FixedHighlightedResults)
 
       } else {
-        setIsSearchBlankQuery(true)
+        setIsSearchBlankQuery(true);
+        setSearchResults(undefined);
       }
     }
 
