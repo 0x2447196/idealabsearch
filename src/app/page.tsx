@@ -139,7 +139,7 @@ export default function Home() {
                 <div className="flex-1 whitespace-normal overflow-auto">{result.product}</div>
                 <div className="flex-1 whitespace-normal overflow-auto">{result.ingredients.join(", ")}</div>
                 <div className="flex-1 whitespace-normal overflow-auto">
-                  <div className="max-h-56 overflow-y-scroll">{result.description}</div>
+                  <div className="max-h-32 md:max-h-56 overflow-y-scroll">{result.description}</div>
                 </div>
               </div>
             ))}
@@ -153,7 +153,7 @@ export default function Home() {
                   <HighlightedSearchResult original={result.document.ingredients as string} matches={result.positions.ingredients} />
                 </div>
                 <div className="flex-1 whitespace-normal overflow-auto">
-                  <div className="max-h-56 overflow-y-scroll">
+                  <div className="max-h-32 md:max-h-56 overflow-y-scroll">
                     <HighlightedSearchResult original={result.document.description as string} matches={result.positions.description} />
                   </div>
                 </div>
