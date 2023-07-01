@@ -1,11 +1,18 @@
 'use client'
 
-import Image from 'next/image'
 import data from "./data/idealabs.json";
-import { create, insertMultiple, search } from '@orama/orama'
-import { persist, restore } from '@orama/plugin-data-persistence'
+import { create, insertMultiple, search, Results, Result } from '@orama/orama'
+// import { persist, restore } from '@orama/plugin-data-persistence'
 import { useEffect, useRef, useState } from 'react';
-import { SearchResultWithHighlight, afterInsert as highlightAfterInsert, searchWithHighlight } from '@orama/plugin-match-highlight'
+import { Position, OramaWithHighlight, afterInsert as highlightAfterInsert, searchWithHighlight } from '@orama/plugin-match-highlight'
+
+interface FixedHighlightedResult extends Result {
+  positions: Record<string, Record<string, Position[]>>
+}
+
+interface FixedHighlightedResults extends Results {
+  hits: FixedHighlightedResult[]
+}
 
 async function createDB() {
   const db = await create({
@@ -27,11 +34,15 @@ async function createDB() {
 
   await insertMultiple(db, searchData, 500)
 
-  return db;
+  return db as OramaWithHighlight;
 }
 
 
-const HighlightedSearchResult = ({ matches, original }) => {
+const HighlightedSearchResult = ({ original, matches }: {
+  original: string;
+  matches: Record<string, Position[]>
+}) => {
+
   const resultString = Object.keys(matches)[0];
   const highlights = matches[resultString];
 
@@ -60,10 +71,12 @@ const HighlightedSearchResult = ({ matches, original }) => {
   return <>{parts}</>;
 };
 
+
+
 export default function Home() {
-  const db = useRef()
+  const db = useRef<OramaWithHighlight>()
   const [searchQuery, setSearchQuery] = useState("");
-  const [searchResults, setSearchResults] = useState<SearchResultWithHighlight>();
+  const [searchResults, setSearchResults] = useState<FixedHighlightedResults>();
   const [isSearchBlankQuery, setIsSearchBlankQuery] = useState(true);
 
   useEffect(() => {
@@ -84,7 +97,7 @@ export default function Home() {
           properties: ['product', 'ingredients', 'description'],
         })
         setIsSearchBlankQuery(false)
-        setSearchResults(results)
+        setSearchResults(results as unknown as FixedHighlightedResults)
 
       } else {
         setIsSearchBlankQuery(true)
@@ -142,17 +155,17 @@ export default function Home() {
               </td>
             </tr>
           ))}
-          {searchResults?.hits.map((result) => (
+          {searchResults?.hits.map((result) =>  (
             <tr key={result.id}>
               <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
-                <HighlightedSearchResult original={result.document.product} matches={result.positions.product} />
+                <HighlightedSearchResult original={result.document.product as string} matches={result.positions.product} />
               </td>
               <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
-                <HighlightedSearchResult original={result.document.ingredients} matches={result.positions.ingredients} />
+                <HighlightedSearchResult original={result.document.ingredients as string} matches={result.positions.ingredients} />
               </td>
               <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
                 <div className="max-h-56 overflow-y-scroll">
-                <HighlightedSearchResult original={result.document.description} matches={result.positions.description} />
+                <HighlightedSearchResult original={result.document.description as string} matches={result.positions.description} />
                 </div>
               </td>
             </tr>
