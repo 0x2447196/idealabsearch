@@ -5,7 +5,7 @@ import data from "./data/idealabs.json";
 import { create, insertMultiple, search } from '@orama/orama'
 import { persist, restore } from '@orama/plugin-data-persistence'
 import { useEffect, useRef, useState } from 'react';
-import { afterInsert as highlightAfterInsert, searchWithHighlight } from '@orama/plugin-match-highlight'
+import { SearchResultWithHighlight, afterInsert as highlightAfterInsert, searchWithHighlight } from '@orama/plugin-match-highlight'
 
 async function createDB() {
   const db = await create({
@@ -63,12 +63,12 @@ const HighlightedSearchResult = ({ matches, original }) => {
 export default function Home() {
   const db = useRef()
   const [searchQuery, setSearchQuery] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
+  const [searchResults, setSearchResults] = useState<SearchResultWithHighlight>();
+  const [isSearchBlankQuery, setIsSearchBlankQuery] = useState(true);
 
   useEffect(() => {
     async function loadDb() {
       db.current = await createDB();
-      console.log(db.current)
     }
 
     loadDb();
@@ -78,15 +78,16 @@ export default function Home() {
     async function searchDB() {
       const normalizedQuery = searchQuery.toLowerCase().trim();
 
-      if (db.current) {
+      if (db.current && normalizedQuery) {
         const results = await searchWithHighlight(db.current, {
           term: normalizedQuery,
           properties: ['product', 'ingredients', 'description'],
         })
-        console.log(results)
+        setIsSearchBlankQuery(false)
+        setSearchResults(results)
 
-        setSearchResults(results.hits)
-
+      } else {
+        setIsSearchBlankQuery(true)
       }
     }
 
@@ -105,6 +106,7 @@ export default function Home() {
         value={searchQuery}
         onChange={e => setSearchQuery(e.target.value)}
         className="w-full p-2 mb-4 border rounded"
+        placeholder="start typing something..."
       />
       </div>
 
@@ -125,7 +127,22 @@ export default function Home() {
           </tr>
         </thead>
         <tbody className="bg-white divide-y divide-gray-200">
-          {searchResults.map((result) => (
+        {isSearchBlankQuery && data.map((result) => (
+            <tr key={result.product}>
+              <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
+                {result.product}
+              </td>
+              <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
+                {result.ingredients.join(", ")}
+              </td>
+              <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
+                <div className="max-h-56 overflow-y-scroll">
+                {result.description}
+                </div>
+              </td>
+            </tr>
+          ))}
+          {searchResults?.hits.map((result) => (
             <tr key={result.id}>
               <td className="px-6 py-4  whitespace-normal overflow-auto align-top">
                 <HighlightedSearchResult original={result.document.product} matches={result.positions.product} />
